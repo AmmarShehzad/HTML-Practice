@@ -1,0 +1,21 @@
+<html>
+<head>
+
+<title> My Form Page </title>
+
+</head>
+<body>
+<table>
+<tr>
+<th> Name 
+<input type = "text" />
+</th>
+
+
+
+</tr>
+
+</table>
+
+</body>
+</html>

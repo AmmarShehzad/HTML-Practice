@@ -1,0 +1,60 @@
+<html>
+<head>
+
+<title> My Form Page </title>
+
+</head>
+<body>
+
+<form action = "somefile.php" method = "post"  >
+<table  border = "2px" align= "center" >
+<tr>
+<th> Name </th>
+<th> <input type = "text" name="<?php echo a; ?>" /> </th>
+</tr>
+<tr>
+<th> Password </th> 
+<th> <input type = "password"  name="password" /> </th>
+</tr>
+<tr>
+<th> Gender </th> 
+<th> 	<input type = "radio" name ="gender" />M 
+	<input type = "radio"  name = "gender"/>F
+</th>
+</tr>
+<tr>
+<th> Course </th> 
+<th> 	<input type = "checkbox" name ="java" />Java 
+	<input type = "checkbox" name ="php" />PHP
+	<input type = "checkbox" name ="c#" />C# 
+</th>
+</tr>
+
+<tr>
+<th> City </th> 
+<th>  	<select>
+		<option> Karachi </option>
+		<option> Lahore </option>
+		<option> Islamabad </option>
+		<option> Hyderabad </option>
+	</select>
+	 
+</th>
+</tr>
+
+<tr>
+<th align = "center" colspan ="2">
+		<input type = "submit" name ="submit"  value = "Register"/> 
+		<input type = "reset"/> 
+		
+</th>	
+</tr>
+
+</table>
+</form>
+</body>
+</html>
+<?php
+&a = "Ammar";
+
+?>

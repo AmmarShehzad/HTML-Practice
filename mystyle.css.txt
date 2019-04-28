@@ -1,0 +1,12 @@
+#p1
+{
+color:blue;
+}
+.c1 
+{
+backgroung-color:khaki;
+}
+p
+{
+text-decoration:underline;
+}

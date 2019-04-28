@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jQuery.js">
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+function mySignature(){
+
+document.write("Umair Shehzad");
+
+}
+
+
+
+</script>
+<h1> Welcome To The Page </h1>
+<script type="text/javascript">
+
+mySignature();
+
+</script>
+
+
+</body>
+</html>
